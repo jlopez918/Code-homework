@@ -20,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #191c29;
+  background-image: url("Raziel.jpg");
 }
 .card {
   width: var(--card-width);
@@ -126,4 +127,14 @@ body {
   text-align: center;
   font-size: 30px;
   color: rgba(41, 202, 162, 0.87);
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #58837d;
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
 }

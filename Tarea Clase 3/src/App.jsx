@@ -16,12 +16,14 @@ function App() {
         <Image2 url="./Razieltitle.png" />
         <Image3 url="./Razielcharacter.jpg" />
       </div>
-      <div className="title">
-        <Title title="Raziel" />
-      </div>
+      <div className="text-container">
+        <div className="title">
+          <Title title="Raziel" />
+        </div>
 
-      <div className="detail">
-        <Details genre="Undead" status="Desconocido" />
+        <div className="detail">
+          <Details genre="Undead" status="Desconocido" />
+        </div>
       </div>
     </div>
   );
